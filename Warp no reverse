@@ -7,7 +7,7 @@
     "servers": [
       {
         "tag": "dns-remote",
-        "address": "https://sky.rethinkdns.com/1:-J8AGH8D__3f___f___Y1f7zMQBKagBY",
+        "address": "https://pb30cfa381.cloudflare-gateway.com/dns-query",
         "address_resolver": "dns-direct",
         "strategy": "ipv4_only"
       },
