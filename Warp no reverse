@@ -7,13 +7,13 @@
     "servers": [
       {
         "tag": "dns-remote",
-        "address": "tcp://95.85.95.85",
+        "address": "https://sky.rethinkdns.com/1:-J8AGH8D__3f___f___Y1f7zMQBKagBY",
         "address_resolver": "dns-direct",
         "strategy": "ipv4_only"
       },
       {
         "tag": "dns-direct",
-        "address": "tcp://95.85.95.85",
+        "address": "tcp://8.8.4.4",
         "address_resolver": "dns-local",
         "strategy": "ipv4_only",
         "detour": "direct"
@@ -90,7 +90,7 @@
       "type": "urltest",
       "tag": "URL-TEST | رایگان",
       "outbounds": [
-        "warpmjsfrbyjae"
+        "NO_Reverse"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "5m0s",
@@ -114,7 +114,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "warpmjsfrbyjae",
+      "tag": "NO_Reverse",
       "local_address": [
         "172.16.0.2/32",
         "2606:4700:110:8154:67ac:9b13:1674:10ef/128"
